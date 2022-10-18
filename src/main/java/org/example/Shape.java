@@ -1,7 +1,7 @@
 package org.example;
 
 public class Shape {
-    private DrawingAPI drawingAPI;
+    private final DrawingAPI drawingAPI;
 
     public Shape(DrawingAPI drawingAPI){
         this.drawingAPI = drawingAPI;

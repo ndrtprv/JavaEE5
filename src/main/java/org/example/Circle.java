@@ -2,9 +2,9 @@ package org.example;
 
 public class Circle extends Shape{
 
-    private int x;
-    private int y;
-    private int radius;
+    private final int x;
+    private final int y;
+    private final int radius;
 
     public Circle(DrawingAPI drawingAPI, int x, int y, int radius) {
         super(drawingAPI);
