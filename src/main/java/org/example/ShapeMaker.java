@@ -11,15 +11,15 @@ public class ShapeMaker {
         rectangle = new Rectangle();
     }
 
-    public void drawCircle(int x, int y, int radius) {
-        circle.draw(x, y, radius);
+    public void drawCircle() {
+        circle.draw(2, -7, 5);
     }
 
-    public void drawSquare(int side) {
-        square.draw(side);
+    public void drawSquare() {
+        square.draw(10);
     }
 
-    public void drawRectangle(int length, int width) {
-        rectangle.draw(length, width);
+    public void drawRectangle() {
+        rectangle.draw(7, 1);
     }
 }
